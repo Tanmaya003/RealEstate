@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGO)
 .then(()=>{console.log("connection successful")})
 .catch((e)=>{console.log(e)})
 
-//creating dynamic directory name
+//creating dynamic directory name kjkj
 const __dirname =path.resolve();
 
 const app=express();
