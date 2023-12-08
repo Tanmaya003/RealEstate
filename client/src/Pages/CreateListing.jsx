@@ -209,7 +209,7 @@ const handleImageSubmit=(e)=>{
                 id="bedrooms"
                 type="number"
                 min="1"
-                max="10"
+                max="20"
                 required
                 onChange={handleChange}
                 value={formdata.bedrooms}
@@ -222,7 +222,7 @@ const handleImageSubmit=(e)=>{
                 id="bathrooms"
                 type="number"
                 min="1"
-                max="10"
+                max="30"
                 required
                 onChange={handleChange}
                 value={formdata.bathrooms}
